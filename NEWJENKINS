@@ -1,0 +1,11 @@
+node
+{
+    stage('clone java code')
+    {
+        git branch: 'main', url: 'https://github.com/Shaibazp/NewMaven.git'
+    }
+    stage('execute java code')
+    {
+        sh 'mvn install'
+    }
+}
