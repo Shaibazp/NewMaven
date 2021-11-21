@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>Login-</artifactId>
-	<version>3.0</version>
+	<version>4.0</version>
 	<packaging>war</packaging>
 	<name>Login-</name>
 	<description>Demo project for Spring Boot</description>
